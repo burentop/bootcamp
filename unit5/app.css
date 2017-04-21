@@ -1,0 +1,15 @@
+h1 {
+	color: #FF8000;
+	border: 8px dashed rgb(255, 100, 80);
+}
+
+h4 {
+	background: rgb(255,100,80);
+}
+
+body {
+	background: pink;
+	/*background-repeat: no-repeat;
+	background: url(http://www.publicdomainpictures.net/pictures/70000/velka/wood-grain-texture-viii.jpg);
+	background-size: cover;
+}*/

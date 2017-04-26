@@ -19,15 +19,7 @@ console.log(factorial(0));
 
 
 function kebabToSnake(str) {
-	var result = "";
-	for (var i = 0; i < str.length; i++) {
-		if (str[i] === '-') {
-			result += '_';
-		} else {
-			result += str[i];
-		}
-	}
-	return result;
+	return str.replace(/-/g, "_");
 }
 
 console.log(kebabToSnake("hello-world"));
